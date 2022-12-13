@@ -30,4 +30,4 @@ jobs:
       - name: Test with pytest
         run: |
           pip install pytest-cov
-          pytest test.py --cov=grup53GPS test.py
+          pytest test.py --cov=grup53GPS test
